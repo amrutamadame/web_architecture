@@ -5,7 +5,7 @@ Select count(*) from task;
 
 -- Count tasks without valid due dates
 —--Return the number of tasks with no valid due date, including NULL or unparseable dates, as a single value.
-Select count(*) from task where due_date ISNULL;
+Select count(*) from task where trim(due_date)='' OR due_date ISNULL;
 
 -- Done tasks
 —--Return all columns of tasks marked Done.
@@ -99,7 +99,7 @@ WHERE id=23;
 --Set status_id to 1 for tasks whose user_id is NULL. These are task ids 23 and 35; change no other rows or columns.
 UPDATE task
 SET status_id=1
-WHERE user_id ISNULL;
+WHERE user_id ISNULL AND id in (23,35);
 
 -- Delete one task
 —--Delete task id 35 only. Do not delete or change any other rows.
