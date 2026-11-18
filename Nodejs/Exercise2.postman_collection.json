@@ -1,0 +1,119 @@
+{
+  "info": {
+    "_postman_id": "72b9f096-f18a-40fc-988f-b0332b88c29f",
+    "name": "Exercise2",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "60209855",
+    "_collection_link": "https://go.postman.co/collection/60209855-72b9f096-f18a-40fc-988f-b0332b88c29f?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "all-users",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:3000/all-users",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "all-users"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "unconfirmed-users",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:3000/unconfirmed-users",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "unconfirmed-users"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "gmail-users",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:3000/gmail-users",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "gmail-users"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "2022-users",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:3000/2022-users",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "2022-users"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "last-name-count",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:3000/user-count",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "user-count"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "first-user",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:3000/first-user",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "first-user"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
